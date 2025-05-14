@@ -5,7 +5,7 @@ function hitungBMI() {
     const interpretasiDiv = document.getElementById("interpretasi");
 
     if (isNaN(tinggiCm) || isNaN(beratKg) || tinggiCm <= 0 || beratKg <= 0) {
-        hasilDiv.textContent = "Masukkan tinggi dan berat badan yang valid.";
+        hasilDiv.textContent = "Masukin kocak !.";
         interpretasiDiv.textContent = "";
         return;
     }
